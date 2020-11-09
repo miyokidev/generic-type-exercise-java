@@ -18,7 +18,7 @@ public class Program {
 		train.add("Trois");
 		train.add("Quatre");
 		
-		System.out.println(train.getFirst()); // Retourne la locomotive
+		System.out.println(train.getFirst()); // Retourne le premier wagon
 		System.out.println(train.getLast()); // Retourne le dernier wagon
 		
 		train.displayTrain(); // Afficher le train
@@ -34,7 +34,7 @@ public class Program {
 		train2.add(3);
 		train2.add(4);
 		
-		System.out.println(train2.getFirst()); // Retourne la locomotive
+		System.out.println(train2.getFirst()); // Retourne le premier wagon
 		System.out.println(train2.getLast()); // Retourne le dernier wagon
 		
 		train2.displayTrain(); // Afficher le train

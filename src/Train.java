@@ -1,7 +1,7 @@
 // Notre classe Train où l'on effectue les actions comme ajouter un wagon.
 public class Train<T> {
 	
-	private Wagon<T> first; // locomotive
+	private Wagon<T> first; // premier wagon
 	
 	private Wagon<T> last; // dernier wagon
 	
@@ -21,7 +21,7 @@ public class Train<T> {
 		nbWagon++; // On incrémente le nombre de wagon.
 	}
 	
-	// Méthode qui retourne le premier wagon/locomotive.
+	// Méthode qui retourne le premier wagon.
 	public T getFirst() {
 		return first.getMerchandise();
 	}
